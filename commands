@@ -1,0 +1,12 @@
+ php artisan make:controller RenterController
+ php artisan make:controller RentingController
+ php artisan migrate 
+ php artisan migrate refresh
+ php artisan make:model Renter
+ php artisan make:model Renting
+ php artisan make:migration create_rentings_table
+ php artisan make:migration create_renters_table
+ code 
+ composer create-project laravel/laravel:10.0 Vizsgamunka1
+ mariadb -u diakdu -p
+ composer i
